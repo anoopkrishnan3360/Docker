@@ -18,5 +18,5 @@ Create a 1st Docker file to setup tomcat.
 	RUN tar -xvzf apache-tomcat-8.5.57.tar.gz
 	RUN ln -s  /usr/local/tomcat/apache-tomcat-8.5.57/bin/startup.sh /usr/local/bin/startup
 	EXPOSE 8080
-	CMD ["cd /usr/local/bin/startup"] //this is not working 
+	CMD ["cd /usr/local/bin/startup"] //this doesnot working
 ```
